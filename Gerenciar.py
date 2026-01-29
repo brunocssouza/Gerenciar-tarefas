@@ -11,10 +11,12 @@ def main():
     escolher_opcao()
 
 def exibir_opcao():
+     print("=================================")
         print("\n1. Adicionar tarefa")
         print("2. Visualizar tarefas")
         print("3. Remover tarefa")
         print("4. Sair")
+print("=================================")
 
 def limpar(texto):
         os.system('cls')
@@ -137,5 +139,6 @@ if __name__ == '__main__':
         "enumerate", uma função usada para percorrer uma sequência (lista, tupla, string, etc.)
 
 '''
+
 
 
